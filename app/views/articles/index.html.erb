@@ -4,7 +4,7 @@
 <% for article in @article %>
     <div class="row  justify-content-md-center" >
         <div class="col-8 mt-4">
-
+       by <%= article.user.username if article.user %>
   <h5 class="card-header">Featured</h5>
   <div class="card-body">
     <h5 class="card-title"><%=  link_to article.title, article_path(article), class: "text-success" %></h5>

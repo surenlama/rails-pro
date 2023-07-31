@@ -6,8 +6,7 @@ gem "cssbundling-rails"
 gem "sassc-rails"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.6"
-
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem 'bcrypt', '~> 3.1.7'
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
